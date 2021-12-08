@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
 
 }
@@ -80,5 +80,46 @@ body.fotos #navegacao a#fotos {
 }
 
 /* fim barra de navegação*/
-
 /*fim cabeçalho*/
+/*Inicio dos conteúdos*/
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: red;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: green;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: blue;
+}
+
+/*fim dos conteúdos*/
+/*inicio rodapé*/
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/*fim rodapé*/
