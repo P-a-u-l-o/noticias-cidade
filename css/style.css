@@ -78,8 +78,6 @@ body.fotos #navegacao a#fotos {
     cursor: text;
 }
 
-/* fim barra de navegação*/
-/*fim cabeçalho*/
 /*Inicio dos conteúdos*/
 #conteudo {
     margin-top: 60px;
@@ -91,15 +89,18 @@ body.fotos #navegacao a#fotos {
     float: left;
     margin: 0 0 20px -750px;
 }
+
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
 }
+
 #uma-coluna #primario {
     width: 750px;
     margin: 0 0 20px 0;
 }
+
 #duas-colunas #primario {
     width: 555px;
 }
@@ -109,60 +110,88 @@ body.fotos #navegacao a#fotos {
     float: left;
     margin: 0 0 20px 15px;
 }
-/*fim dos conteúdos*/
 
 /*inicio conteúdo lateral/caixas*/
-.caixa{
+.caixa {
     margin: 10px 0;
     padding: 5px;
-    background:#f3f3f3 url(../img/fundo-caixa.png);
+    background: #f3f3f3 url(../img/fundo-caixa.png);
 }
-h2{
-    font-size:1em;
-    background:#294c71;
-    color:#fff;
-    padding:5px;
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
 }
-.caixa-conteudo{
-   background:#fff;
-   padding:5px;
-   margin-top:5px; 
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
-#lateral ul a{
-    font-size:0.9em;
-    padding:3px;
-    display:block;
-    line-height:30px;
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
     color: #000;
-    text-decoration:none;
+    text-decoration: none;
     border-bottom: 1px solid #c2c2c2;
 }
 
-#lateral ul a:hover{
-    background:#f9f9f9 url(..//img/marcador.png) no-repeat left center;
-    padding-left:20px;
-    color:#a1a1a1;
+#lateral ul a:hover {
+    background: #f9f9f9 url(..//img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
 }
 
-label{
-    display:block;
-    cursor:pointer;
+label {
+    display: block;
+    cursor: pointer;
 }
-input{
-    padding:5px;
-    width:125px;
-    font-size:0.9em;
-    background:#fff;
-}
-input.submit{
-    width:80px;
-    color:#fff;
-    background-color:#b10333;
-    border:2px solid #870529;
-    margin-top:5px;
-}
-/*fim do conteúdo lateral/caixas*/
 
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 5px;
+}
+
+
+
+/*formatando imagens*/
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*formatando cabeçalhos das caixas*/
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+    color: #000;
+}
 
 /*inicio rodapé*/
 #container-rodape {
