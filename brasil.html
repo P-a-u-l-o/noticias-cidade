@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="brasil">
-    <!--inicio cabeçalho-->
+<body id="duas-colunas" class="brasil">
+
+    <!--inicio container-->
     <div id="container">
+        <!--inicio topo-->
         <div id="topo">
             <h1 class="logo">Notícias Cidade</h1>
-            <!--inicio barra de navergação-->
+            <!--inicio barra de navegação-->
             <ul id="navegacao">
                 <li class="primeiro">
                     <a id="home" href="index.html">home</a>
@@ -38,10 +40,108 @@
                     <a id="fotos" href="fotos.html">Fotos</a>
                 </li>
             </ul>
-            <!--fim barra de navergação-->
+            <!--fim barra de navegação-->
+        </div>
+        <!--fim topo-->
+        <!--inicio conteúdo-->
+        <div id="conteudo">
+            <!--inicio conteudo primário-->
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova Legislação</h3>
+                        <img class="imagem-principal" src="img/taxi.jpg" alt="táxis">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus magni dolor
+                            inventore ipsam accusamus sed, ea fugit delectus soluta, quidem vitae esse perferendis,
+                            temporibus quos ipsa dolorum nobis veritatis.</p>
+                        <a href="#">Leia mais</a>
+                    </div>
+                </div>
+                <!--inicio da lista de notícias 01-->
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul class="lista-noticias">
+                            <li><a href="#">
+                                    <img src="img/crise-europeia.jpg" width="80" alt="Crise Europeia">
+                                    <h3>Crise Europeia</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+
+                            <li><a href="#">
+                                    <img src="img/usa-acordo.jpg" width="80" alt="Acordo dos Estados Unidos da América">
+                                    <h3>USA tentam novo acordo</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+
+                            <li><a href="#">
+                                    <img src="img/guerra-siria.jpg" width="80" alt="Guerra na Síria">
+                                    <h3>Guerra na Síria</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+
+                            <li><a href="#">
+                                    <img src="img/russia.jpg" width="80" alt="Rússia aprova lei">
+                                    <h3>Rússia aprova lei</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--fim da lista de notícias 01-->
+            </div>
+            <!--fim do conteudo primário-->
+        </div>
+        <!--inicio menu lateral-->
+        <div id="lateral">
+            <div class="caixa">
+                <h2>Entrevistas</h2>
+                <div class="caixa-conteudo">
+                    <ul>
+                        <li><a href="#">José Almeida</a></li>
+                        <li><a href="#">Felipe Silva</a></li>
+                        <li><a href="#">Renato Rodrigues</a></li>
+                        <li><a href="#">Abelardo Silveira</a></li>
+                        <li><a href="#">André Carlos</a></li>
+                        <li><a href="#">Márcio Mello</a></li>
+                        <li><a href="#">João Pedro</a></li>
+                        <li><a href="#">Fernando Weiss</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="caixa">
+                <h2>News</h2>
+                <div class="caixa-conteudo">
+                    <form action="">
+                        <div>
+                            <label for="_email">Email</label>
+                            <input type="email" name="email" id="_email" placeholder="E-mail">
+                        </div>
+                        <div>
+                            <input class="submit" type="submit" value="Cadastrar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--fim menu lateral-->
+    </div>
+    <!--fim conteúdo-->
+    </div>
+    <!--fim container-->
+    <!--inicio rodapé-->
+    <div id="container-rodape">
+        <div id="rodape">
+            &copy; Copyright 2000-2018 Notícias cidade
         </div>
     </div>
-    <!--fim cabeçalho-->
+    <!--fim do rodapé-->
 </body>
 
 </html>
